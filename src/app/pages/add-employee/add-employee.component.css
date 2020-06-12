@@ -1,0 +1,11 @@
+.card-body .text
+{
+    margin-top: 4%;
+    text-align: center;
+}
+
+.card-body .text p
+{
+    color: #adadad;
+    font-size: 15px;
+}
