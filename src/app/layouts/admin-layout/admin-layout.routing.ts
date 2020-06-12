@@ -9,6 +9,10 @@ import { MapsComponent } from '../../pages/maps/maps.component';
 import { NotificationsComponent } from '../../pages/notifications/notifications.component';
 import { UpgradeComponent } from '../../pages/upgrade/upgrade.component';
 
+import { MainDashboardComponent } from '../../pages/main-dashboard/main-dashboard.component';
+import { EmployeesComponent } from '../..//pages/employees/employees.component';
+import { AddEmployeeComponent } from '../../pages/add-employee/add-employee.component';
+
 export const AdminLayoutRoutes: Routes = [
     { path: 'dashboard',      component: DashboardComponent },
     { path: 'user',           component: UserComponent },
@@ -17,5 +21,8 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'icons',          component: IconsComponent },
     { path: 'maps',           component: MapsComponent },
     { path: 'notifications',  component: NotificationsComponent },
-    { path: 'upgrade',        component: UpgradeComponent }
+    { path: 'upgrade',        component: UpgradeComponent },
+    { path: 'main-dashboard', component: MainDashboardComponent },
+    { path: 'employees', component: EmployeesComponent },
+    { path: 'add-employee', component: AddEmployeeComponent },
 ];

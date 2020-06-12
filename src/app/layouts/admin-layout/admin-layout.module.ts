@@ -14,6 +14,10 @@ import { MapsComponent }            from '../../pages/maps/maps.component';
 import { NotificationsComponent }   from '../../pages/notifications/notifications.component';
 import { UpgradeComponent }         from '../../pages/upgrade/upgrade.component';
 
+import { MainDashboardComponent } from '../../pages/main-dashboard/main-dashboard.component';
+import { EmployeesComponent } from '../../pages/employees/employees.component';
+import { AddEmployeeComponent } from '../../pages/add-employee/add-employee.component';
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -32,6 +36,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     IconsComponent,
     MapsComponent,
     NotificationsComponent,
+    MainDashboardComponent,
+    EmployeesComponent,
+    AddEmployeeComponent
   ]
 })
 
