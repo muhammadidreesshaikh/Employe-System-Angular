@@ -38,125 +38,31 @@
               <th>
                 Type 
               </th>
+              <th>
+                Actions 
+              </th>
             </thead>
             <tbody>
-              <tr>
+              <tr *ngFor="let user of users">
                 <td>
-                  Ahsan
+                  {{user.name}}
                 </td>
                 <td>
-                  sample12@gmail.com
+                  {{user.email}}
                 </td>
                 <td>
-                  03001299901
+                  {{user.contact}}
                 </td>
                 <td>
-                  Karachi
+                  {{user.location}}
                 </td>
                 <td>
-                  unexamined
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Ali
+                  {{user.type}}
                 </td>
                 <td>
-                  sample60@gmail.com
-                </td>
-                <td>
-                  03342387912
-                </td>
-                <td>
-                  Sukkur
-                </td>
-                <td>
-                  unexamined
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Youshif
-                </td>
-                <td>
-                  sample65@gmail.com
-                </td>
-                <td>
-                  03112380012
-                </td>
-                <td>
-                  Lahore
-                </td>
-                <td>
-                  unexamined
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Zeeshan
-                </td>
-                <td>
-                  sample11@gmail.com
-                </td>
-                <td>
-                  03301323812
-                </td>
-                <td>
-                  Punjab
-                </td>
-                <td>
-                  unexamined
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Mujeeb
-                </td>
-                <td>
-                  sample01@gmail.com
-                </td>
-                <td>
-                  03120323879
-                </td>
-                <td>
-                  Karachi
-                </td>
-                <td>
-                  unexamined
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Anis
-                </td>
-                <td>
-                  sample66@gmail.com
-                </td>
-                <td>
-                  03012382998
-                </td>
-                <td>
-                  Karachi
-                </td>
-                <td>
-                  unexamined
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Salman
-                </td>
-                <td>
-                  sample98@gmail.com
-                </td>
-                <td>
-                  03015478791
-                </td>
-                <td>
-                  Lahore
-                </td>
-                <td>
-                  unexamined
+                  <a [routerLink]="['/employee-details']" class="btn btn-primary btn-round py-1 px-3">
+                    <span>view</span>
+                  </a>
                 </td>
               </tr>
             </tbody>

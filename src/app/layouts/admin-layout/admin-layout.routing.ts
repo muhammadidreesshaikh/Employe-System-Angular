@@ -12,6 +12,7 @@ import { UpgradeComponent } from '../../pages/upgrade/upgrade.component';
 import { MainDashboardComponent } from '../../pages/main-dashboard/main-dashboard.component';
 import { EmployeesComponent } from '../..//pages/employees/employees.component';
 import { AddEmployeeComponent } from '../../pages/add-employee/add-employee.component';
+import { EmployeeDetailsComponent } from '../../pages/employee-details/employee-details.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'dashboard',      component: DashboardComponent },
@@ -25,4 +26,5 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'main-dashboard', component: MainDashboardComponent },
     { path: 'employees', component: EmployeesComponent },
     { path: 'add-employee', component: AddEmployeeComponent },
+    { path: 'employee-details', component: EmployeeDetailsComponent },
 ];

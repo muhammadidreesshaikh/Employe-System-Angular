@@ -17,6 +17,7 @@ import { UpgradeComponent }         from '../../pages/upgrade/upgrade.component'
 import { MainDashboardComponent } from '../../pages/main-dashboard/main-dashboard.component';
 import { EmployeesComponent } from '../../pages/employees/employees.component';
 import { AddEmployeeComponent } from '../../pages/add-employee/add-employee.component';
+import { EmployeeDetailsComponent } from '../../pages/employee-details/employee-details.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -38,7 +39,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NotificationsComponent,
     MainDashboardComponent,
     EmployeesComponent,
-    AddEmployeeComponent
+    AddEmployeeComponent,
+    EmployeeDetailsComponent
   ]
 })
 
