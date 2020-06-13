@@ -13,6 +13,10 @@ export const ROUTES: RouteInfo[] = [
     { path: '/employees', title: 'Employees', icon:'nc-tile-56', class: '' },
     { path: '/add-employee', title: 'Add Employee', icon:'nc-single-02', class: '' },
     { path: '/employee-details', title: 'Employee Details', icon:'nc-single-02', class: 'none' },
+    { path: 'user-forms/employee-handbook', title: 'Employee Handbook', icon:'nc-paper', class: '' },
+    { path: 'user-forms/form-w4', title: 'W-4 Form', icon:'nc-paper', class: '' },
+    { path: 'user-forms/form-I9', title: 'I-9 Form', icon:'nc-paper', class: '' },
+    { path: 'user-forms/form-direct-deposit', title: 'Direct Deposit Form', icon:'nc-paper', class: '' },
 
     // { path: '/dashboard',     title: 'Dashboard',         icon:'nc-bank',       class: '' },
     // { path: '/icons',         title: 'Icons',             icon:'nc-diamond',    class: '' },

@@ -12,6 +12,7 @@ import { AppComponent } from './app.component';
 import { AppRoutes } from './app.routing';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+import { UserFormsModule } from './pages/user-forms/user-forms.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,8 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     NavbarModule,
     ToastrModule.forRoot(),
     FooterModule,
-    FixedPluginModule
+    FixedPluginModule,
+    UserFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
