@@ -1,8 +1,8 @@
-.button, input, optgroup, select, textarea
+select
 {
     color: #616161;
     width: 100%;
     padding: 9px;
-    border-radius: 3px; 
+    border-radius: 3px;  
     border: 1px solid #dddddd;
 }
