@@ -204,3 +204,9 @@
   outline: none;
   display: none;
 }
+
+.logo-image-small {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
