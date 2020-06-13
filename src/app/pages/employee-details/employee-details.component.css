@@ -1,0 +1,9 @@
+.card-stats .card-body .numbers .card-category
+{
+    height: 45px;
+}
+
+.card-stats .card-body .numbers p.card-title {
+    font-size: 15px;
+    font-weight: 700;
+}
