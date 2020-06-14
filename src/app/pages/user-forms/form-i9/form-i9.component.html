@@ -7,7 +7,7 @@
                     <div class="row">
 
                         <div class="col-md-12">
-                            <h3>Employee Information</h3>
+                            <h3>Section 1. Employee Information and Attestation</h3>
                         </div>
 
                         
@@ -103,7 +103,9 @@
                         </div>
 
                         <div class="col-md-12 pt-4">
-                           <h6>I attest, under penalty of perjury, that I am (check one of the following boxes):</h6>
+                           <div class="text">
+                                <p>I attest, under penalty of perjury, that I am (check one of the following boxes):</p>
+                           </div>
                         </div>
 
                         <div class="col-md-12 pt-4">
@@ -133,47 +135,498 @@
                             </div>
                         </div>
 
-                        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        <!-- <div class="col-md-6">
-                            <div class="form-group mt-1">
-                                <label>Marital Status</label>
-                                <select>
-                                    <option value="volo">Marital Status</option>
-                                    <option value="saab">Single</option>
-                                    <option value="saab">Married</option>
-                                </select>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="checkbox" id="checking" name="checking" value="Checking">
+                                <label for="checking" class="pl-3">4. An alien authorized to work</label>
                             </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label>City</label>
-                                <input type="text" class="form-control" placeholder="City, State, Zip">
+                                <input type="date" class="form-control" placeholder="Hiring Date">
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="text">
+                                <p>Aliens authorized to work must provide only one of the following document numbers to complete Form I-9:  An Alien Registration Number/USCIS Number OR Form I-94 Admission Number OR Foreign Passport Number.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 pt-4">
+                            <p>1. Alien Registration Number/USCIS Number:</p>
+                        </div>
+ 
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <h6>OR</h6>
+                        </div>
+
+                        <div class="col-md-6 pt-4">
+                            <p>2. Form I-94 Admission Number:</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <h6>OR</h6>
+                        </div>
+
+                        <div class="col-md-6 pt-4">
+                            <p>3. Foreign Passport Number:</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 pt-4">
+                            <p>Country of Issuance:</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Signature</label>
+                                <input type="text" class="form-control" placeholder="Signature of Employee">
                             </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label>Date</label>
-                                <input type="date" class="form-control" placeholder="Hiring Date">
+                                <input type="date" class="form-control" placeholder="Today's Date">
                             </div>
-                        </div> -->
+                        </div>
+
+                        <div class="col-md-12">
+                            <h3>Preparer and/or Translator Certification (check one):</h3>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <input type="checkbox" id="checking" name="checking" value="Checking">
+                                <label for="checking" class="pl-3">I did not use a preparer or translator.</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7">
+                            <div class="form-group">
+                                <input type="checkbox" id="checking" name="checking" value="Checking">
+                                <label for="checking" class="pl-3">A preparer(s) and/or translator(s) assisted the employee in completing Section 1.</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 pt-2">
+                            <p>(Fields below must be completed and signed when preparers and/or translators assist an employee in completing Section 1.)</p>
+                        </div>
+
+                        <div class="col-md-12 pt-4">
+                            <div class="text">
+                                <p>I attest, under penalty of perjury, that I have assisted in the completion of Section 1 of this form and that to the best of myknowledge the information is true and correct.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Signature</label>
+                                <input type="text" class="form-control" placeholder="Signature of Preparer or Translator">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Date</label>
+                                <input type="date" class="form-control" placeholder="Today's Date">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Last Name (Family Name)">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="First Name (Given Name)">
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Address</label>
+                                <input type="text" class="form-control" placeholder="Address (Street Number and Name)">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>City</label>
+                                <input type="text" class="form-control" placeholder="City or Town">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>State</label>
+                                <input type="text" class="form-control" placeholder="State">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>ZIP</label>
+                                <input type="text" class="form-control" placeholder="ZIP Code">
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 pt-4">
+                            <h3>Section 2. Employer or Authorized Representative Review and Verification. </h3>
+                        </div>
+
+                        <div class="col-md-12 pt-2">
+                            <p>(Employers or their authorized representative must complete and sign Section 2 within 3 business days of the employee's first day of employment. You must physically examine one document from List A OR a combination of one document from List B and one document from List C as listed on the "Lists of Acceptable Documents.")</p>
+                        </div>
+
+                        <div class="col-md-12 pt-4">
+                            <div class="text">
+                                <p>Employee Info from Section 1 </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Last Name (Family Name)">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="First Name (Given Name)">
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="M.I.">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Citizenship/Immigration Status">
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="heading">
+                                        <h4>List A</h4> 
+                                        <p>Identity and Employment Authorization</p>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Document Title">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Issuing Authority">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Document Number">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" placeholder="Expiration Date (if any) (mm/dd/yyyy)">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Document text">
+                                        </div>
+                                    </div>
+            
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Issuing Authority">
+                                        </div>
+                                    </div>
+            
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Document Number">
+                                        </div>
+                                    </div>
+            
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Expiration Date (if any) (mm/dd/yyyy)">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="heading">
+                                        <h4>List B</h4> 
+                                        <p>Identity</p>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Document Title">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Issuing Authority">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Document Number">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" placeholder="Expiration Date (if any) (mm/dd/yyyy)">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <textarea rows="5" placeholder="Your Message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4">
+                                    <div class="heading">
+                                        <h4>List C</h4> 
+                                        <p>Employment Authorization</p>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Document Title">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Issuing Authority">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Document Number">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" placeholder="Expiration Date (if any) (mm/dd/yyyy)">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input type="file" class="form-control" id="QR Code - Sections 2 & 3 Do Not Write In This Space" name="QR Code - Sections 2 & 3 Do Not Write In This Space">
+                                            <!-- <input type="file" class="form-control" placeholder="QR Code - Sections 2 & 3 Do Not Write In This Space"> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 pt-3">
+                            <p>The employee's first day of employment (See instructions for exemptions)</p>
+                        </div>
+ 
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="date" class="form-control" placeholder="first day">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Signature of Employer or Authorized Representative">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="date" class="form-control" placeholder="Today's Date">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Title of Employer or Authorized Representative">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Last Name of Employer or Authorized Representative">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="First Name of Employer or Authorized Representative">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Employer's Business or Organization Name">
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Employer's Business or Organization Address (Street Number and Name)">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="City or Town">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="State">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="ZIP Code">
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 pt-4">
+                            <h3>Section 3. Reverification and Rehires </h3>
+                        </div>
+
+                        <div class="col-md-8 pt-3 float-left">
+                            <p>A. New Name (if applicable)</p>
+                        </div>
+
+                        <div class="col-md-4 pt-3 float-right">
+                            <p>B. Date of Rehire (if applicable)</p>
+                        </div>
+
+                        <div class="col-md-3 pt-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Last Name (Family Name)">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 pt-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="First Name (Given Name)">
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 pt-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Middle Initial">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="date" class="form-control" placeholder="Date">
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 pt-3">
+                            <p>C. If the employee's previous grant of employment authorization has expired, provide the information for the document or receipt that establishes continuing employment authorization in the space provided below.</p>
+                        </div>
+
+                        <div class="col-md-4 pt-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Document Title">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 pt-4">
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Document Number">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Expiration Date (if any) (mm/dd/yyyy)</label>
+                                <input type="date" class="form-control" placeholder="Expiration Date ">
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 pt-4">
+                            <div class="text">
+                                <p>I attest, under penalty of perjury, that to the best of my knowledge, this employee is authorized to work in the United States, and if the employee presented document(s), the document(s) I have examined appear to be genuine and to relate to the individual.  </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 pt-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Signature of Employer or Authorized Representative">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Today's Date (mm/dd/yyyy)</label>
+                                <input type="date" class="form-control" placeholder="Expiration Date ">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 pt-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name of Employer or Authorized Representative">
+                            </div>
+                        </div>
                 
                     </div>
                 </form>
